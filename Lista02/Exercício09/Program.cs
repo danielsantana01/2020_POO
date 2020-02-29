@@ -10,6 +10,15 @@ namespace Exercício09
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite o horário no formato hh:mm");
+            string[] time = Console.ReadLine().Split(':');
+            int horas = int.Parse(time[0]);
+            int minutos = int.Parse(time[1]);
+            if (horas < 24 && minutos < 60)
+            {
+                double graus = 
+                Console.WriteLine();
+            }
         }
     }
 }

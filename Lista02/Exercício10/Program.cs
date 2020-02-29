@@ -10,6 +10,9 @@ namespace Exercício10
     {
         static void Main(string[] args)
         {
+            string data = Console.ReadLine();
+            char[] lista = data.Split('/');
+
         }
     }
 }

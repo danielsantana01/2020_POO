@@ -13,10 +13,10 @@ namespace Exercício11
             string a = lista[2];
             switch (m)
             {
-                case "01": 
+                case "01":
                     m = "janeiro";
                     break;
-                case "02": 
+                case "02":
                     m = "fevereiro";
                     break;
                 case "03":

@@ -10,7 +10,14 @@ namespace Exercício13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hellow World!");
+            List<int> lista = new List<int>();
+            string[] entry = Console.ReadLine().Split();
+            for (int i = 0; i <= 9; i++)
+            {
+                lista.Add(int.Parse(entry[i]));
+            }
+            lista.Sort();
+            Console.WriteLine($"O maior valor é {lista[9]} e o menor é {lista[0]}");
         }
     }
 }

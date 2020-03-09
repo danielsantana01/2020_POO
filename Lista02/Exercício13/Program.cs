@@ -10,6 +10,7 @@ namespace Exercício13
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite dez valores inteiros");
             List<int> lista = new List<int>();
             string[] entry = Console.ReadLine().Split();
             for (int i = 0; i <= 9; i++)

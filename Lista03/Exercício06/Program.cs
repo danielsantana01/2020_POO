@@ -25,7 +25,6 @@ namespace Exercício06
                 else if (double.Parse(l1[0]) + double.Parse(l1[1]) / 60 < double.Parse(l2[0]) + double.Parse(l2[1]) / 60) maior = h2;
             }
             Console.WriteLine($"O maior horário é {maior}");
-            Console.ReadKey();
         }
     }
 }

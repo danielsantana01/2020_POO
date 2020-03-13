@@ -7,4 +7,4 @@
 
 **disciplina**: Programação Estruturada e Orientada a Objetos
 
-**curso**: infoweb 2V
+**turma**: infoweb 2V
